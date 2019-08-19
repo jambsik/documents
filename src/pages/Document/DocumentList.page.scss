@@ -1,0 +1,69 @@
+@import '../../variables';
+
+.documents-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__filters {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    select {
+      width: 10%;
+    }
+  }
+
+  &__content {
+    border: 4px solid $primary-color;
+    border-radius: 8px;
+    margin: 20px 40px 40px 40px;
+    padding: 16px;
+
+    .fa-trash-alt,
+    .fa-eye {
+      cursor: pointer;
+    }
+
+    section {
+      .fa-trash-alt {
+        cursor: pointer;
+      }
+
+      .fa-eye {
+        cursor: pointer;
+        margin: 0 0 0 20px;
+      }
+    }
+
+    &--magnitude {
+      height: 400px;
+    }
+  }
+
+  &__footer {
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: $primary-font-color;
+  }
+
+  &__actions {
+    cursor: pointer;
+    margin: 0 0 0 20px;
+    font-size: 40px;
+  }
+
+  &--icon-enabled {
+    color: $primary-font-color;
+  }
+
+  &--icon-disabled {
+    color: $disabled-color;
+    cursor: not-allowed;
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pages": {
+    "home": "Go to home",
+    "documents": "Go to documents"
+  },
+  "common": {
+    "page": "Page",
+    "noMoreData": "No more data to show...",
+    "documentIsNotAvailable": "The document is not available.",
+    "deletingElements": "Deleting document...",
+    "loading": "Loading...."
+  },
+  "errors": {
+    "errorDuringCall": "The operation could not be executed.",
+    "errorContentNotBeLoaded": "The content could not be loaded.",
+    "errorImageNotBeAccessed": "The image could not be accessed."
+  },
+  "application": {
+    "title": "Documents Application",
+    "company": "Signaturit"
+  },
+  "home": {
+    "subTitle": "Now it's easier to handle your documents.",
+    "accessToYourDocuments": "Access to your documents"
+  },
+  "notFound": {
+    "title": "404 - Page not found.",
+    "goToHome": "Go to home page"
+  },
+  "documents": {
+    "list": {
+      "title": "Documents List",
+      "addNewDocument": "Add new document"
+    },
+    "create": {
+      "title": "New Document",
+      "whatTypeOfDocument": "What type of document do you want to add?",
+      "form": {
+        "title": "Title",
+        "text": "Text",
+        "image": "Image",
+        "date": "Date",
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    },
+    "detail": {
+      "title": "Document Detail"
+    }
+  }
+}

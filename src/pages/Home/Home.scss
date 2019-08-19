@@ -1,0 +1,15 @@
+.home {
+  height: 100%;
+
+  & > .navigable-container {
+    @media (min-width: 375px) and (max-width: 812px) {
+      .navigable-container__logo {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 14px;
+      }
+    }
+  }
+}

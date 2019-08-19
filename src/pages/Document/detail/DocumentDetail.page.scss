@@ -1,0 +1,30 @@
+@import '../../../variables';
+
+.document-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  &__card-content {
+    background: $primary-font-color;
+    width: 600px;
+    height: 600px;
+
+    &--document-align {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .document-reader__image {
+        width: 100%;
+        margin: 0 0 60px 0;
+      }
+
+      label {
+        margin: 0 0 40px 0;
+      }
+    }
+  }
+}

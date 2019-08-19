@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.button-component {
+  background: $bg-dark-color;
+  border: 1px solid $primary-color;
+  color: $primary-font-color;
+  height: 40px;
+  padding: 0 24px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 100px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-component:active,
+.button-component:focus {
+  outline: 0;
+  box-shadow: none;
+}

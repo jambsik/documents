@@ -1,0 +1,37 @@
+@import '~react-redux-toastr/src/styles/index';
+@import './variables';
+
+html {
+  background: $bg-dark-color;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:active,
+a:visited,
+a:link,
+a:hover {
+  text-decoration: none;
+  color: $secondary-font-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,33 @@
+@import '../../variables';
+
+.input-component {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  span {
+    padding: 0 0 6px 0;
+    font-size: 18px;
+  }
+  &__field {
+    outline: none;
+    padding: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1.4px solid $bg-dark-color;
+    background: transparent;
+    font-size: 14px;
+  }
+
+  &__field[type='date']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+  }
+
+  &__field:active,
+  &__field:focus {
+    box-shadow: 0 1px $primary-color;
+    outline: none;
+  }
+}
